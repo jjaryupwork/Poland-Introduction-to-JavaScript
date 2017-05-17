@@ -1,1 +1,0 @@
-"# Poland-Introduction-to-JavaScript" 
