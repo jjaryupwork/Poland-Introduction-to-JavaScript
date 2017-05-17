@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+}
+span {
+	 color: blue;
+	 padding: 20px;
+	 text-transform: uppercase;
+  	 font-weight:bold;
+  	 font-family: fantasy;
+  	 font-size: 40px;
+}   
+select:not(:checked) {
+   	 cursor: pointer;
+     border-radius: 20px;
+     text-transform: uppercase;
+     font-weight:bold;
+     font-family: fantasy;
+     font-size: 40px; 
+}
+select option {
+     text-transform: uppercase;
+     font-weight:bold;
+     color: blue;
+     border-radius: 20px;
+     margin:0;
+}
+
+select:not(:checked) {
+     color: blue;
+     box-shadow:5px 5px 5px #000;
+}
+
+div {
+	box-shadow:15px 15px 15px #000;
+	border-radius: 360px;
+	margin:0 auto;
+}
