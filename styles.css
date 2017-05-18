@@ -1,13 +1,14 @@
 body{
 	text-align: center;
 }
-span {
+label {
 	 color: blue;
 	 padding: 20px;
 	 text-transform: uppercase;
   	 font-weight:bold;
   	 font-family: fantasy;
   	 font-size: 40px;
+  	 overflow: scroll;
 }   
 select:not(:checked) {
    	 cursor: pointer;
@@ -33,5 +34,11 @@ select:not(:checked) {
 div {
 	box-shadow:15px 15px 15px #000;
 	border-radius: 360px;
-	margin:0 auto;
+	position: fixed;
+ 	top: 30%;
+ 	left: 50%;
+ 	margin-top: -50px;
+  	margin-left: -100px;
+
+	
 }
