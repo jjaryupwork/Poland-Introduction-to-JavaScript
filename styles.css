@@ -3,20 +3,22 @@ body{
 }
 label {
 	 color: blue;
-	 padding: 20px;
 	 text-transform: uppercase;
   	 font-weight:bold;
   	 font-family: fantasy;
   	 font-size: 40px;
-  	 overflow: scroll;
+     float: center;
+     white-space:nowrap;
 }   
 select:not(:checked) {
    	 cursor: pointer;
      border-radius: 20px;
+     text-align: center;
      text-transform: uppercase;
      font-weight:bold;
      font-family: fantasy;
-     font-size: 40px; 
+     font-size: 40px;
+     float: center;
 }
 select option {
      text-transform: uppercase;
@@ -25,20 +27,15 @@ select option {
      border-radius: 20px;
      margin:0;
 }
-
 select:not(:checked) {
      color: blue;
      box-shadow:5px 5px 5px #000;
 }
-
 div {
 	box-shadow:15px 15px 15px #000;
 	border-radius: 360px;
-	position: fixed;
- 	top: 30%;
- 	left: 50%;
- 	margin-top: -50px;
-  	margin-left: -100px;
-
-	
+  margin:0 auto;
+  top:100px;
+  position: relative;
+  clear: both;
 }
