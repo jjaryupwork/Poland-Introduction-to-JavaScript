@@ -7,18 +7,17 @@ label {
   	 font-weight:bold;
   	 font-family: fantasy;
   	 font-size: 40px;
-     float: center;
+     display: inline-block;
      white-space:nowrap;
 }   
 select:not(:checked) {
    	 cursor: pointer;
      border-radius: 20px;
-     text-align: center;
      text-transform: uppercase;
      font-weight:bold;
+     margin:10px 10px;
      font-family: fantasy;
      font-size: 40px;
-     float: center;
 }
 select option {
      text-transform: uppercase;
@@ -37,5 +36,4 @@ div {
   margin:0 auto;
   top:100px;
   position: relative;
-  clear: both;
 }
