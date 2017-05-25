@@ -1,5 +1,4 @@
 var selecting = document.getElementsByTagName('select');
-
 var element = document.getElementById('content');
 
 function dropdownStyles(){
@@ -10,6 +9,7 @@ function dropdownStyles(){
 	element.style[style] = value;
 }
  	for ( var i = 0; i < selecting.length; i++){
- 		selecting[i].addEventListener('change', dropdownStyles );
+ 		selecting[i].addEventListener('change', dropdownStyles, false );
+
  		
  	}
