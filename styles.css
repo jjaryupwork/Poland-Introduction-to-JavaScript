@@ -8,7 +8,7 @@ label {
   	 font-family: fantasy;
   	 font-size: 40px;
      display: inline-block;
-     white-space:nowrap;
+   /*  white-space:nowrap;*/
 }   
 select:not(:checked) {
    	 cursor: pointer;
